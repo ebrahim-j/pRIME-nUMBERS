@@ -1,5 +1,3 @@
-import Math
-
 def isPrime(n):
 	if n == 1 :
 		return True
