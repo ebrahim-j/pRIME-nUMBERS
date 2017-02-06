@@ -17,8 +17,13 @@ def isPrime(n):
 
 
 def GeneratePrime(n):
+	n = int(input("Insert here: "))
+	if n <= 1:
+		return "Retry with a positive integer greater than 1"
+	elif n ==2:
+		return n
+		
 	try:
-		n = int(input("Insert here: "))
 		primeList = []
 		for i in range(n+1):
 			if isPrime(i) == True:
