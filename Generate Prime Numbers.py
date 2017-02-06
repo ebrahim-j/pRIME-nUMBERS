@@ -1,4 +1,6 @@
 def isPrime(n):
+	if n <= 0:
+		return False
 	if n == 1 || n==2 || n==3 :
 		return True
 	#checks if number is even(even numbers are not prime)
