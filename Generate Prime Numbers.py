@@ -22,5 +22,5 @@ def GeneratePrime(n):
 	for i in range(n+1):
 		if isPrime(i) == True:
 			primeList.append(i)
-	return i
+	return primeList
 
