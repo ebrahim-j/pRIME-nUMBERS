@@ -1,10 +1,10 @@
 import unittest
-import Math
+#import Math
 
 class Test_IsPrime(unittest.TestCase):
 
-	def test_for_zero(self):
-		"""Test to check if 0 returns False"""
+    def test_for_zero(self):
+	"""Test to check if 0 returns False"""
     	self.assertFalse(isPrime(0))
 
     def test_negative_numbers(self):
