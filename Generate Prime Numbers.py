@@ -17,10 +17,13 @@ def isPrime(n):
 
 
 def GeneratePrime(n):
-	n = int(input("Insert here: "))
-	primeList = []
-	for i in range(n+1):
-		if isPrime(i) == True:
-			primeList.append(i)
-	return primeList
+	try:
+		n = int(input("Insert here: "))
+		primeList = []
+		for i in range(n+1):
+			if isPrime(i) == True:
+				primeList.append(i)
+		return primeList
+	except TypeError:
+		Print ('Cannot input anything besides a whole number')
 
