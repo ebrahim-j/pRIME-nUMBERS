@@ -19,6 +19,10 @@ class Test_IsPrime(unittest.TestCase):
     def test_prime_number(self):
     	""""Test if 13 is correctly considered as a prime number """
     	self.assertTrue(isPrime(13))
+	
+    def test_big_prime_number(self):
+	"""Test to check if bi prime number is successfully dtermined to be prime"""
+	self.assertTrue(isPrime(373))
 
     #def test_output_isprime_number(self):
     #	"""Test output correctness using Python inbuilt Prime method"""
